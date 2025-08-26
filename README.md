@@ -10,9 +10,9 @@ Thank you for sharing your great work!
 
 ## Installation
 
-1. In Firefox, open `about:support` and find "Profile Directory."
+1. In Firefox, open `about:support` and find "Profile Directory".
 2. Click "Open Directory" or note the profile directory's path.
-3. Copy the `chrome` folder into your profile directory.
+3. Copy the `chrome` directory into your profile directory.
 4. Open `about:config`.
 5. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
 6. Set `svg.context-properties.content.enabled` to `true`.
