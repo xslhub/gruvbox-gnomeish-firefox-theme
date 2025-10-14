@@ -1,5 +1,6 @@
 /*
  * gruvbox-gnomeish-firefox-theme
+ * Version 0.9.1
  *
  * Copyright (C) 2025 Simon Linimair
  *
@@ -53,7 +54,7 @@
 }
 
 #alltabs-button {
-    display: none !important;
+	display: none !important;
 }
 
 #unified-extensions-button{
@@ -72,14 +73,14 @@
 }
 
 .titlebar-buttonbox-container .toolbarbutton-icon {
-	background-color: #CC241D !important;;
+	background-color: #CC241D !important;
 	height: 16px !important;
 	width: 16px !important;
 	color: transparent !important;
 }
 
 .titlebar-buttonbox-container:hover .toolbarbutton-icon {
-	background-color: #CC241D !important;;
+	background-color: #CC241D !important;
 	height: 16px !important;
 	width: 16px !important;
 	color:  var(--button-text-color) !important;
@@ -371,7 +372,6 @@
 #TabsToolbar #tabs-newtab-button>.toolbarbutton-icon,
 #TabsToolbar #alltabs-button>.toolbarbutton-badge-stack,
 #TabsToolbar #tabbrowser-tabs[hasadjacentnewtabbutton][overflow="true"]~#new-tab-button>.toolbarbutton-icon {
-	/* padding: var(--uc-toolbarbutton-inner-padding) !important; */
 	padding: 10px !important;
 	width: calc(2 * var(--uc-toolbarbutton-inner-padding) + 16px) !important;
 }
@@ -381,11 +381,11 @@
 	left: -3px !important;
 	position: relative !important;
 }
+
 #tabbrowser-tabs #tabs-newtab-button:hover .toolbarbutton-icon {
- 		background-color: color-mix(in srgb, var(--toolbar-bgcolor) 50%, transparent) !important;
+		background-color: color-mix(in srgb, var(--toolbar-bgcolor) 50%, transparent) !important;
 		--uc-tab-corner-bg: color-mix(in srgb, var(--toolbar-bgcolor) 50%, transparent) !important;
 }
-
 
 .tab-content[pinned] {
 	padding: 0 12px !important;
@@ -534,7 +534,7 @@ toolbarbutton[part="scrollbutton-down"] {
 	display: flex;
 	padding: 0 !important;
 	position: relative !important;
-	top: -1px !important;
+	top: 1px !important;
 	left: 7px !important;
 }
 
