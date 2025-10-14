@@ -1,5 +1,6 @@
 /*
  * gruvbox-gnomeish-firefox-theme
+ * Version 0.9.1
  *
  * Copyright (C) 2025 Simon Linimair
  *
@@ -22,7 +23,7 @@
 	body {
 		background: #1a1a1a !important;
 		--newtab-background-color: #1a1a1a !important;
-    	},
+	},
 }
 
 /* Fix page flashes when loading some websites */
