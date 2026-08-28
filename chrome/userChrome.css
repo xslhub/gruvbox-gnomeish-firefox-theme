@@ -1,6 +1,6 @@
 /*
  * gruvbox-gnomeish-firefox-theme
- * Version 0.9.2
+ * Version 0.9.3
  *
  * Copyright (C) 2025 Simon Linimair
  *
@@ -232,7 +232,7 @@
 
 #tabbrowser-tabs,
 #TabsToolbar #TabsToolbar-customization-target>.toolbarbutton-1 {
-	margin-top: var(--tab-block-margin) !important;
+	margin-top: 5px !important;
 }
 
 #TabsToolbar .toolbarbutton-1 {
@@ -538,18 +538,18 @@ toolbarbutton[part="scrollbutton-down"] {
 	left: 7px !important;
 }
 
-.tabbrowser-tab:not([selected="true"])  {
+.tabbrowser-tab:not([selected])  {
 	opacity: 0.5;
 }
 
-/* Firefox 152 updates */
-.tabbrowser-tab:not([selected="true"]):hover {
+/* Firefox 152+ updates */
+.tabbrowser-tab:not([selected]):hover {
 	background-color: color-mix(in srgb, currentColor 8%, transparent) !important;
 	border-radius: var(--tab-border-radius) !important;
 	border-bottom-left-radius: 0 !important;
 	border-bottom-right-radius: 0 !important;
 }
-.tabbrowser-tab:is([selected="true"]):hover {
+.tabbrowser-tab:is([selected]):hover {
 	background-color: color-mix(in srgb, currentColor 25%, transparent) !important;
 	border-radius: var(--tab-border-radius) !important;
 	border-bottom-left-radius: 0 !important;
