@@ -1,6 +1,6 @@
 /*
  * gruvbox-gnomeish-firefox-theme
- * Version 0.9.4
+ * Version 0.9.4.1
  *
  * Copyright (C) 2025, 2026 Simon Linimair
  *
@@ -608,5 +608,13 @@ toolbarbutton[part="scrollbutton-down"] {
 		border-radius: 8px !important;
 		border-bottom-left-radius: 0 !important;
 		border-bottom-right-radius: 0 !important;
+	}
+
+	/* Subjective changes - feel free to remove, comment or uncomment */
+	.searchmode-switcher {
+		/* Always keep the search-glass icon - never display the engine's icon */
+		--button-icon-content: url("chrome://global/skin/icons/search-glass.svg") !important;
+		/* Display the element in grayscale */
+		/* filter: grayscale(1); */
 	}
 }
